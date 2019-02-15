@@ -1,0 +1,14 @@
+{
+  "name": "zillow-no-thanks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node src/dev-server.js"
+  },
+  "author": "David Morrow",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.13.0"
+  }
+}

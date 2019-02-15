@@ -1,0 +1,23 @@
+{
+  "name": "Zillow Thumbs Down",
+  "version": "1.0",
+  "description": "Thumbs down properties on Zillow!",
+  "permissions": [
+    "storage",
+    "declarativeContent"
+  ],
+  "content_scripts": [
+    {
+      "css": [
+        "styles.css"
+      ],
+      "js": [
+        "main.js"
+      ],
+      "matches": [
+        "https://www.zillow.com/*"
+      ]
+    }
+  ],
+  "manifest_version": 2
+}
